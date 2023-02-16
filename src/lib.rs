@@ -1,5 +1,7 @@
+mod class;
 mod map;
 
+pub use class::*;
 pub use map::*;
 
 use std::fmt::{self, Display, Formatter};
